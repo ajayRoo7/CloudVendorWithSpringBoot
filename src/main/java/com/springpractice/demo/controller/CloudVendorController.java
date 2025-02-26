@@ -30,13 +30,13 @@ public class CloudVendorController {
         return cloudVendorService.getAllCloudVendors();
     }
     @PostMapping
-    public String createCloudVendor(@RequestBody CloudVendor cloudVendor)
+    public String createVendor(@RequestBody CloudVendor cloudVendor)
     {
 
         return cloudVendorService.createCloudVendor(cloudVendor);
     }
     @PutMapping
-    public String updateCloudVendor(@RequestBody CloudVendor cloudVendor)
+    public String updateVendor(@RequestBody CloudVendor cloudVendor)
     {
         return cloudVendorService.createCloudVendor(cloudVendor);
     }
